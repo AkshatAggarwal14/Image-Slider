@@ -1,0 +1,44 @@
+body {
+    background: #222020;
+}
+
+h1 {
+    font-size: 2.1rem;
+    line-height: 1.4;
+    letter-spacing: 0.5rem;
+    color: white;
+    margin: 50px;
+}
+
+.section {
+    width: 57%;
+    height: 440px;
+    background: url(dsc-874-2000x1333.jpg);
+    box-shadow: 1px 2px 35px white;
+    background-repeat: no-repeat;
+    animation: slide 20s infinite;
+    background-size: 100% 100%;
+}
+
+@keyframes slide {
+    20% {
+        background: url(dsc-246-2000x1333.jpg);
+        background-size: 100% 100%;
+    }
+    40% {
+        background: url(dsc-318-2000x1333.jpg);
+        background-size: 100% 100%;
+    }
+    60% {
+        background: url(dsc-325-2000x1333.jpg);
+        background-size: 100% 100%;
+    }
+    80% {
+        background: url(dsc-883-2000x1333.jpg);
+        background-size: 100% 100%;
+    }
+    100% {
+        background: url(dsc-874-2000x1333.jpg);
+        background-size: 100% 100%;
+    }
+}
